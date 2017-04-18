@@ -1,0 +1,74 @@
+﻿#header{display:inline-block;height:41px;}
+.topArc,.bottomArc{overflow:hidden;font-size:0;line-height:0;}
+#checkUser{width:140px;}
+#content{top:66px;}
+.letterSpace{display:inline;}
+.letterSpace{letter-spacing:1em;}
+#sidebar hr{margin:-4px 12px;width:100%;color:#999;}
+#haveReg{height:25px;line-height:14px;text-indent:10px;}
+#sidebar #sidebarMargin{height:10px;overflow:hidden;}
+#iReg a{top:1px;left:24px;}
+#link{margin-top:27px;}
+#link ul{width:100%;}
+#link .noBorder em{margin-right:8px;}
+#rec input,#rec span{vertical-align:baseline;}
+#regUser legend{line-height:20px;}
+#nav{padding:4px 0 0 18px;}
+#nav li a img{vertical-align:middle;}
+#footer{float:none;}
+.message{color:#ff0000;}
+
+/*====IE7 begin====*/
+html>body a{font-family:Verdana, Arial, Helvetica, sans-serif;}
+html>body #declare td{padding:0 65px;}
+html>body #lockLink a{left:380px;}
+html>body textarea{line-height:12px;}
+/*====IE7 end====*/
+
+/*====IE6 and below begin====*/
+* html #sidebar{margin:0 5px;}
+* html #sidebar #nav dt{margin:8px 0 1px 0;}
+* html #sidebar #nav dd{line-height:110%;}
+* html .regDesc li{height:18px;padding-top:1px;line-height:100%;}
+* html .regDesc img{vertical-align:baseline;}
+* html #nav dd a{padding-top:0;height:100%;}
+* html #helpBody #main{margin:0 5px 0 0;}
+* html #fReg1 textarea{width:500px;line-height:13px;}
+/*====IE6 and below end====*/
+
+/*====IE5 begin====*/
+th,td{font-size:14px;}
+td.desc{font-size:12px;}
+#sidebar td{font-size:12px;}
+#haveReg{text-indent:0;padding-left:10px;}
+.letterSpace{float:none;}
+#link{width:500px;}
+* html #rec{width:498px;}
+#nav dd a{width:auto;height:auto;}
+/*====IE5 end====*/
+
+/*====IE5.5+ begin====*/
+#haveReg/**/{text-indent:10px;padding-left:0;}
+.letterSpace/**/{float:left;}
+#link/**/{width:497px;}
+* html #rec/**/{width:500px;}
+/*====IE5.5+ end====*/
+
+/*====IE 5.5 & IE 5.0 begin====*/
+#sidebar,#sidebar dt,#sidebar dd{overflow:hidden;}
+* html .hidden{/**/overflow /**/:visible;}
+* html .text{/**/height /**/:20px;}
+* html #login table{/**/width /**/:99%;}
+* html #login #username,* html #login #password{/**/height /**/:20px;}
+* html #content{/**/top /**/:60px;}
+/*====IE 5.5 & IE 5.0 end====*/
+
+/*====IE5.5 begin====*/
+.letterSpace/**/{/**/float /**/:none;}
+* html #rec/**/{/**/width /**/:496px;}
+.letterSpace/**/{/**/letter-spacing /**/:1em;}
+#link em/**/{/**/margin /**/:0;}
+#link .noBorder em/**/{/**/margin /**/:0;}
+#loginBtn/**/{/**/float /**/:left;display:block;}
+/*====IE5.5 end====*/
+
